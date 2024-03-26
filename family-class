@@ -1,0 +1,22 @@
+class Family{
+  //class name alwaysin UpperCase
+  
+  var numberOfMembers=0;
+  
+  
+  //Now I am creating method in Class Family
+  
+  void addMember(var name) {
+    numberOfMembers++;
+    print("This is $name.\nOur New Member,Welcome Dear $name.\nThis member Number is $numberOfMembers.\n");
+    
+}
+   
+}
+
+void main(){
+  var myFamily=Family();
+  myFamily.addMember("Munawar");
+  myFamily.addMember("Mahfooza");
+}
+
